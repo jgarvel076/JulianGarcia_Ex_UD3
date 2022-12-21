@@ -7,7 +7,7 @@ public class ventanaNuevo extends javax.swing.JFrame
 {
    
     
-    private ventanaPrincipal v;
+    private Apuesta v;
     
    
     public ventanaNuevo() 
@@ -16,7 +16,7 @@ public class ventanaNuevo extends javax.swing.JFrame
     }
 
    
-    public ventanaNuevo(ventanaPrincipal ventana) 
+    public ventanaNuevo(Apuesta ventana)
     {
         initComponents();
         v = ventana;
@@ -72,7 +72,7 @@ public class ventanaNuevo extends javax.swing.JFrame
 
     public void agregarPartido(String p)
     {
-        v.agregarPartido(p);
+        v.partidoNuevo(p);
         tPartido.setText("");
         tPartido.requestFocus();
     }

@@ -12,7 +12,7 @@ import javax.swing.WindowConstants;
 public class ventanaPrincipal extends javax.swing.JFrame {
 
    
-    public ventanaPrincipal() 
+    public ventanaPrincipal()
     {
         initComponents();
         this.setResizable(Boolean.FALSE);
