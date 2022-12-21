@@ -5,7 +5,7 @@ import java.awt.event.KeyEvent;
 
 public class CrearPartido extends javax.swing.JFrame
 {
-   
+   //Creamos la clase CrearPartido
     
     private Apuesta v;
     
@@ -76,7 +76,7 @@ public class CrearPartido extends javax.swing.JFrame
         tPartido.setText("");
         tPartido.requestFocus();
     }
-    
+    //Accion crear partidos
     private void bAgregarPartidoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bAgregarPartidoActionPerformed
         añadePartido(tPartido.getText());
     }//GEN-LAST:event_bAgregarPartidoActionPerformed
